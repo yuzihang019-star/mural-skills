@@ -1,0 +1,299 @@
+{
+ "source": "MuralDH Mural_seg/train (CC0); images sampled: 160",
+ "note": "数据集只标‘有/无病害’，没有类型；分组只按形状（点状/片状/大面积/线状），不是病害类型。",
+ "sheets": {
+  "A_标注病害_按形态.jpg": [
+   {
+    "id": "A1",
+    "group": "dots",
+    "image": "img_18crop_1_1.png",
+    "bbox_xywh": [
+     277,
+     94,
+     34,
+     29
+    ]
+   },
+   {
+    "id": "A2",
+    "group": "dots",
+    "image": "img_128crop_0_0.png",
+    "bbox_xywh": [
+     219,
+     57,
+     10,
+     8
+    ]
+   },
+   {
+    "id": "A3",
+    "group": "patch",
+    "image": "002688.png",
+    "bbox_xywh": [
+     79,
+     343,
+     96,
+     136
+    ]
+   },
+   {
+    "id": "A4",
+    "group": "patch",
+    "image": "002983.png",
+    "bbox_xywh": [
+     212,
+     102,
+     127,
+     48
+    ]
+   },
+   {
+    "id": "A5",
+    "group": "patch",
+    "image": "002905.png",
+    "bbox_xywh": [
+     225,
+     35,
+     100,
+     128
+    ]
+   },
+   {
+    "id": "A6",
+    "group": "large",
+    "image": "004145.png",
+    "bbox_xywh": [
+     2,
+     351,
+     509,
+     160
+    ]
+   },
+   {
+    "id": "A7",
+    "group": "large",
+    "image": "001268.png",
+    "bbox_xywh": [
+     0,
+     0,
+     290,
+     169
+    ]
+   },
+   {
+    "id": "A8",
+    "group": "line",
+    "image": "002089.png",
+    "bbox_xywh": [
+     1,
+     227,
+     65,
+     285
+    ]
+   },
+   {
+    "id": "A9",
+    "group": "line",
+    "image": "002128.png",
+    "bbox_xywh": [
+     201,
+     37,
+     136,
+     34
+    ]
+   }
+  ],
+  "B_小模型误报.jpg": [
+   {
+    "id": "B1",
+    "image": "003454.png",
+    "bbox_xywh": [
+     430,
+     0,
+     82,
+     182
+    ]
+   },
+   {
+    "id": "B2",
+    "image": "002917.png",
+    "bbox_xywh": [
+     90,
+     152,
+     205,
+     130
+    ]
+   },
+   {
+    "id": "B3",
+    "image": "004650.png",
+    "bbox_xywh": [
+     302,
+     0,
+     97,
+     115
+    ]
+   },
+   {
+    "id": "B4",
+    "image": "img_70crop_1_0.png",
+    "bbox_xywh": [
+     191,
+     231,
+     281,
+     75
+    ]
+   },
+   {
+    "id": "B5",
+    "image": "004805.png",
+    "bbox_xywh": [
+     0,
+     159,
+     136,
+     208
+    ]
+   },
+   {
+    "id": "B6",
+    "image": "002775.png",
+    "bbox_xywh": [
+     42,
+     0,
+     98,
+     210
+    ]
+   },
+   {
+    "id": "B7",
+    "image": "004508.png",
+    "bbox_xywh": [
+     346,
+     330,
+     166,
+     182
+    ]
+   },
+   {
+    "id": "B8",
+    "image": "002651.png",
+    "bbox_xywh": [
+     192,
+     91,
+     111,
+     155
+    ]
+   },
+   {
+    "id": "B9",
+    "image": "img_106crop_1_1.png",
+    "bbox_xywh": [
+     244,
+     243,
+     174,
+     167
+    ]
+   }
+  ],
+  "C_小模型漏检.jpg": [
+   {
+    "id": "C1",
+    "image": "003566.png",
+    "bbox_xywh": [
+     449,
+     226,
+     63,
+     181
+    ]
+   },
+   {
+    "id": "C2",
+    "image": "002089.png",
+    "bbox_xywh": [
+     188,
+     447,
+     76,
+     37
+    ]
+   },
+   {
+    "id": "C3",
+    "image": "003162.png",
+    "bbox_xywh": [
+     112,
+     174,
+     96,
+     81
+    ]
+   },
+   {
+    "id": "C4",
+    "image": "004332.png",
+    "bbox_xywh": [
+     113,
+     400,
+     61,
+     112
+    ]
+   },
+   {
+    "id": "C5",
+    "image": "002688.png",
+    "bbox_xywh": [
+     243,
+     231,
+     90,
+     88
+    ]
+   },
+   {
+    "id": "C6",
+    "image": "002303.png",
+    "bbox_xywh": [
+     365,
+     0,
+     44,
+     62
+    ]
+   },
+   {
+    "id": "C7",
+    "image": "004956.png",
+    "bbox_xywh": [
+     187,
+     133,
+     73,
+     195
+    ]
+   },
+   {
+    "id": "C8",
+    "image": "004164.png",
+    "bbox_xywh": [
+     256,
+     86,
+     78,
+     137
+    ]
+   },
+   {
+    "id": "C9",
+    "image": "002830.png",
+    "bbox_xywh": [
+     166,
+     2,
+     68,
+     60
+    ]
+   }
+  ]
+ },
+ "counts": {
+  "dots": 265,
+  "patch": 742,
+  "large": 73,
+  "line": 160,
+  "false_alarms": 2260,
+  "misses": 163
+ }
+}

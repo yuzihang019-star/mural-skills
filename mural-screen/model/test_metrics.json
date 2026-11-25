@@ -1,0 +1,17 @@
+{
+  "n_test_images": 201,
+  "threshold": 0.5999999999999999,
+  "pixel_precision": 0.122,
+  "pixel_recall": 0.375,
+  "pixel_f1": 0.184,
+  "global_iou": 0.101,
+  "mean_image_iou": 0.1,
+  "label_positive_frac": 0.0522,
+  "top3_boxes": 597,
+  "top3_box_hit_rate": 0.241,
+  "random_box_hit_rate": 0.137,
+  "top3_mean_damage_density": 0.111,
+  "random_mean_damage_density": 0.052,
+  "images_with_>=1_hit_in_top3": 0.443,
+  "hit_rate_lift": 1.76
+}
